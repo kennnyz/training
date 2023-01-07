@@ -1,6 +1,9 @@
 # training
 This repository contain homework from udemy course
 
+
+
+```golang
 func main() {
 	//Setting a new cache where we can contain everything of type key(string)-value(any)
 	cache := cache.New()
@@ -19,3 +22,4 @@ func main() {
 	cache.Delete("Muhammed")
 	fmt.Println(cache)
 }
+```
